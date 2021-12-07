@@ -1,0 +1,347 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+/*============================================================================================================*/
+.Login .Titulo_login{
+
+    font-family: 'Amatic SC', cursive;
+    font-size:60px;
+    color: white;
+    position: absolute ;
+    top: -15%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+
+}
+
+.Login .inputBox{
+    top: 20%;
+    right:60%;
+    font-size: 40px;
+    position: relative;
+}
+
+/*============================================================================================================*/
+
+body{
+	background: linear-gradient( to top, #00ccff 0%, #000066 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100%;
+
+
+}
+
+/*============================================================================================================*/
+
+.logo{
+    margin-top:2%;
+    margin-left:40%;
+    margin-right:40%;
+   
+  
+  }
+
+  /*---------------------------------------------------------------------------------------------------------*/
+
+#menu {
+    width: 800px;
+    border-radius:5px;
+    margin: auto;
+    border-color:blue;
+    border-style: double;
+    background-color: black;
+    align-items: center;
+    
+    
+   
+;
+  }
+#menu ul{
+ list-style: none;/*para tirar o estilo original da lista*/
+ padding: 40px;/*preenchimento do menu, ao redor dos botões */
+ font-size: 25px;/*tamanho da fonte*/
+ margin-left: 65px;/*margem a esquerda*/
+ border-radius: 5%;/*margem aos cantos*/
+
+}
+
+#menu ul li{display: inline-block;/*colocar em linha*/
+}
+
+#menu ul li a{
+ text-decoration:none;/*para tirar o traçado do link*/
+ background-color: black; /*cor do fundo, é igual a #333333*/
+ border-radius: 30px;/*arrendondando os cantos em px*/
+ color: white;/*cor do link*/
+ padding: 30px;
+ font-family: arial;
+}
+
+#menu ul li a:hover {
+ color: 	#000000;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+         .Rede ul{
+            z-index: 1;
+            display: flex;
+            position: fixed;
+            top:4%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+        
+            
+        }
+        
+        .Rede ul li{
+            list-style: none;
+        }
+        
+        .Rede ul li a{
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            text-align: center;
+            line-height: 80px;
+            font-size: 40px;
+            margin: 0 10px;
+            display: block;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            border: 1.8px solid #fff;
+            z-index: 1;
+        }
+        
+        .Rede ul li a .fa{
+            position: relative;
+            color: #262626;
+            transition: .5s;
+            z-index: 3;
+        }
+        
+        .Rede ul li a:hover .fa{
+            color:#fff;
+            transform: rotateY(360deg);
+        }
+        
+        .Rede ul li a:before{
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f00;
+            transition: .5s;
+            z-index: 2;
+        }
+        
+        .Rede ul li a:hover:before{
+            top:0;
+        
+        }
+        
+        .Rede ul li:nth-child(1) a:before{
+            background: #3b5999;
+        
+        }
+        
+        .Rede ul li:nth-child(2) a:before{
+            background: #e4405f;
+        
+        }
+        
+        .Rede ul li:nth-child(3) a:before{
+            background: #55acee;
+        
+        }
+        
+        .Rede ul li:nth-child(4) a:before{
+            background: #dd4b39;
+        
+        }
+
+ /* --------------------------------------------------------------------------------------------------- */      
+ .search-box {
+    position: absolute;
+    top: 26%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 60px;
+    padding: 20px;
+   }
+   
+   .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+   }
+   
+   .search-box:hover > .search-btn {
+    
+    color: black;
+   }
+   
+   .search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+   }
+   
+   .search-btn > i {
+    font-size: 30px;
+
+   }
+   
+   .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+   }
+   /*============================================================================================================*/
+   .texto1 a{
+ 
+    color: black;
+    font-family: arial;
+    width:30%;
+	height:100%;
+    position :absolute;
+    top:50%;
+    left: 10%;
+    font-size:25px;
+        
+    }
+    
+ .texto2 a{
+    
+    color: black;
+    font-family: arial;
+    width:30%;
+	height:100%;
+    font-size:25px;
+    position :absolute;
+    top:85%;
+    left: 10%;
+    
+    
+    
+    }
+    
+ .texto3 a{
+    
+     color: black;
+     font-family: arial;
+     width:30%;
+	height:100%;
+    position :absolute;
+    top:50%;
+    left: 55%;
+     font-size:25px;
+        
+    }
+    
+ .texto4 a{
+    
+     color: black;
+     font-family: arial;
+     width:30%;
+     height:100%;
+     font-size:25px;
+     position :absolute;
+     top:83%;
+     left: 55%;
+    }
+    
+    
+.texto5 {
+      color: black;
+      font-family: arial;
+      width:40%;
+      height:100%;
+      float:left;
+      font-size:20px;
+      position: absolute;
+      left: 25%;
+      top:115% ;
+            }
+ .texto6 {
+     color: black;
+     font-family: arial;
+     width:20%;
+	height:100%;
+     float:left;
+     font-size:25px;
+     position: absolute;
+     left: 20%;
+     top: 132%;
+      }
+                
+      
+.texto7 {
+      color: black;
+      font-family: arial;
+      width:20%;
+	  height:100%;
+      float:left;
+      font-size:25px;
+      position: absolute;
+      left: 65%;
+      top: 132%;
+       }
+
+ .pata {
+
+        width:30%;
+        position: absolute;
+        left: 50%;
+        top: 130%;
+      }
+.pata1 {
+      
+        width:30%;
+        position: absolute;
+        left: 5%;
+        top: 130%;
+      }
+
+
+   /*============================================================================================================*/
+
+   h1 { 
+    color: white;
+    text-shadow: 1px 1px 2px pink, 0 0 25px gray, 0 0 5px #D02090; /*sombra do w3school*/
+    text-align: center;
+    font-family: 'Amatic SC', cursive;  /*fonte com link do google fonte*/
+     }
+
+   /*============================================================================================================*/
+
+   .gif{
+    position: absolute;
+    left: 150%;
+    top:60%;
+
+}
