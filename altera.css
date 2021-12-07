@@ -1,0 +1,273 @@
+*{
+    border: 0;
+    padding: 0;
+}
+.Login .Titulo_login{
+
+    font-family: 'Amatic SC', cursive;
+    font-size:60px;
+    color: white;
+    position: absolute ;
+    top: -15%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+
+}
+
+.Login .inputBox{
+    top: 20%;
+    right:60%;
+    font-size: 40px;
+    position: relative;
+}
+
+
+
+body{
+	background: linear-gradient( to top, #00ccff 0%, #000066 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100%;
+
+
+}
+
+.logo{
+    margin-top:2%;
+    margin-left:40%;
+    margin-right:40%;
+   
+  
+  }
+
+#menu {
+    width: 800px;
+    border-radius:5px;
+    margin: auto;
+    border-color:blue;
+    border-style: double;
+    background-color: black;
+    align-items: center;
+    
+    
+   
+;
+  }
+#menu ul{
+ list-style: none;/*para tirar o estilo original da lista*/
+ padding: 40px;/*preenchimento do menu, ao redor dos botões */
+ font-size: 25px;/*tamanho da fonte*/
+ margin-left: 65px;/*margem a esquerda*/
+ border-radius: 5%;/*margem aos cantos*/
+
+}
+
+#menu ul li{display: inline-block;/*colocar em linha*/
+}
+
+#menu ul li a{
+ text-decoration:none;/*para tirar o traçado do link*/
+ background-color: black; /*cor do fundo, é igual a #333333*/
+ border-radius: 30px;/*arrendondando os cantos em px*/
+ color: white;/*cor do link*/
+ padding: 30px;
+ font-family: arial;
+}
+
+#menu ul li a:hover {
+ color: 	#000000;
+}
+
+
+
+         .Rede ul{
+            z-index: 1;
+            display: flex;
+            position: fixed;
+            top:4%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+        
+            
+        }
+        
+        .Rede ul li{
+            list-style: none;
+        }
+        
+        .Rede ul li a{
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            text-align: center;
+            line-height: 80px;
+            font-size: 40px;
+            margin: 0 10px;
+            display: block;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            border: 1.8px solid #fff;
+            z-index: 1;
+        }
+        
+        .Rede ul li a .fa{
+            position: relative;
+            color: #262626;
+            transition: .5s;
+            z-index: 3;
+        }
+        
+        .Rede ul li a:hover .fa{
+            color:#fff;
+            transform: rotateY(360deg);
+        }
+        
+        .Rede ul li a:before{
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f00;
+            transition: .5s;
+            z-index: 2;
+        }
+        
+        .Rede ul li a:hover:before{
+            top:0;
+        
+        }
+        
+        .Rede ul li:nth-child(1) a:before{
+            background: #3b5999;
+        
+        }
+        
+        .Rede ul li:nth-child(2) a:before{
+            background: #e4405f;
+        
+        }
+        
+        .Rede ul li:nth-child(3) a:before{
+            background: #55acee;
+        
+        }
+        
+        .Rede ul li:nth-child(4) a:before{
+            background: #dd4b39;
+        
+        }
+
+        
+
+
+
+form {
+ 
+  width: 25%;
+  height: 450px;
+  text-align: center;
+  font-size: 100%;
+  margin-left: 40%;
+  margin-top: 10%;
+  opacity:0.9;
+  font-family: 'Amatic SC', cursive;
+  color:white;
+  font-size: 50px;
+}
+
+
+
+form{
+position: absolute;
+top: 60%;
+left: 10%;
+border-radius: 10%;
+transform: translate(-50%,-50%);
+width: 600px;
+height: 700px;
+background: rgba(0,0,0,.5);}
+
+form .box{
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+form .box h2{
+
+    font-size: 50px;
+    color: #fff;
+    font-family: -webkit-pictograph;
+}
+
+ 
+
+form .box .Voltar input[type="submit"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #6d6c67;
+	padding: 10px 20px;
+	cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    left: 0%;
+    top:-80%;
+}
+
+form .box .Voltar input[type="button"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #6d6c67;
+	padding: 10px 20px;
+	cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    left: 0%;
+    top:-80%;
+}
+
+
+form .box input {
+    position: relative;
+    bottom: 1.4%;
+    right:0%;  
+    font-family: -webkit-pictograph;
+    width: 240px;
+	padding: 5px 0;
+	font-size: 17px;
+    color: black;
+    border-radius: 5px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	border: none;
+
+}
+
+
+form .box label {
+    position: relative;
+    bottom: 0.5%;
+    right:0%;  
+    font-family: 'Amatic SC', cursive;
+	font-size: 37px;
+    color: white;
+	letter-spacing: 1px;
+	
+
+}
+
+
+    
+
+    
