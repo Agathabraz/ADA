@@ -1,0 +1,297 @@
+*{
+    border: 0;
+    padding: 0;
+
+}
+
+body{
+	background: linear-gradient( to top, #00ccff 0%, #000066 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100%;
+
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.logo{
+    margin-top:2%;
+    margin-left:35%;
+    margin-right:40%;
+   
+  
+  }
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+#menu {
+    width: 800px;
+    border-radius:5px;
+    margin: auto;
+    border-color:blue;
+    border-style: double;
+    background-color: black;
+    align-items: center;
+    
+    
+   
+;
+  }
+#menu ul{
+ list-style: none;/*para tirar o estilo original da lista*/
+ padding: 40px;/*preenchimento do menu, ao redor dos botões */
+ font-size: 25px;/*tamanho da fonte*/
+ margin-left: 65px;/*margem a esquerda*/
+ border-radius: 5%;/*margem aos cantos*/
+
+}
+
+#menu ul li{display: inline-block;/*colocar em linha*/
+}
+
+#menu ul li a{
+ text-decoration:none;/*para tirar o traçado do link*/
+ background-color: black; /*cor do fundo, é igual a #333333*/
+ border-radius: 30px;/*arrendondando os cantos em px*/
+ color: white;/*cor do link*/
+ padding: 30px;
+ font-family: arial;
+}
+
+#menu ul li a:hover {
+ color: 	#000000;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+         .Rede ul{
+            z-index: 1;
+            display: flex;
+            position: fixed;
+            top:4%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+        
+            
+        }
+        
+        .Rede ul li{
+            list-style: none;
+        }
+        
+        .Rede ul li a{
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            text-align: center;
+            line-height: 80px;
+            font-size: 40px;
+            margin: 0 10px;
+            display: block;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            border: 1.8px solid #fff;
+            z-index: 1;
+        }
+        
+        .Rede ul li a .fa{
+            position: relative;
+            color: #262626;
+            transition: .5s;
+            z-index: 3;
+        }
+        
+        .Rede ul li a:hover .fa{
+            color:#fff;
+            transform: rotateY(360deg);
+        }
+        
+        .Rede ul li a:before{
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f00;
+            transition: .5s;
+            z-index: 2;
+        }
+        
+        .Rede ul li a:hover:before{
+            top:0;
+        
+        }
+        
+        .Rede ul li:nth-child(1) a:before{
+            background: #3b5999;
+        
+        }
+        
+        .Rede ul li:nth-child(2) a:before{
+            background: #e4405f;
+        
+        }
+        
+        .Rede ul li:nth-child(3) a:before{
+            background: #55acee;
+        
+        }
+        
+        .Rede ul li:nth-child(4) a:before{
+            background: #dd4b39;
+        
+        }
+
+        
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+.search-txt {
+   background-color:white;
+   padding: 5px 50px;  
+     margin-top: 4%;
+     opacity:1;
+     text-align:left;
+     
+}
+
+
+  .search-txt {
+     background-color:white;
+     padding: 5px 50px;  
+       margin-top: 4%;
+       opacity:1;
+       text-align:left;
+       
+  }
+  
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.Cadastro  {
+	position: absolute;
+	top: 60%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+    width: 400px;
+    height: 450px;
+	padding: 30px;
+	background: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.Cadastro p.Titulo_cadastro{
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #fff;
+    position: relative ;
+    top: -0px;
+    left: 65%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+form{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    
+    
+    }
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.Cadastro .inputBox input{
+
+    position: relative;  
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+	padding: 5px 0;
+	font-size: 17px;
+    color: black;
+    border-radius: 5px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom:1px solid black;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+.Cadastro .inputBox label{
+    position: relative; 
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+.Cadastro input[type="submit"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #6d6c67;
+	padding: 10px 20px;
+	cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+    top:90%
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.Cadastro .inputBox select{
+    position: relative;  
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+	padding: 5px 0;
+	font-size: 17px;
+    color: black;
+    border-radius: 5px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom:1px solid black;
+}
+  
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.Cadastro .inputBox section option{
+    
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+	padding: 5px 0;
+	font-size: 17px;
+    color: black;
+	letter-spacing: 1px;
+	border: none;
+	
+}
+/*----------------------------------------------------------------------------------------------------------------------*/
+
