@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+  <title>Título da página</title>
+    <meta charset="utf-8">
+
+     <link rel="stylesheet" type="text/css" href="cadastro.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stilesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
+  </head>
+
+
+
+
+<body>
+
+<div class="logo">
+<img src="IMG/ada.png">
+</div>
+
+<div class="Rede">
+      <ul>
+          <li><a href="https://pt-br.facebook.com/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/?hl=pt-br" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+      </ul>
+  </div>    
+ 
+
+ <nav id="menu">
+   <ul>
+
+      <li><a href="index.html"> Página Inicial</a></li>
+      <li><a href="login.php"> Login</a></li>
+      <li><a href="Adote.html"> Adote</a></li>
+      <li><a href="#"> Chat</a></li>
+
+ </ul>
+</nav>
+
+<div class="Cadastro">
+        <p class="Titulo_cadastro">Cadastro</p>
+            <form action="process_form.php" method="POST">
+
+
+                <div class="inputBox">
+                        <label class="Nome">Nome:</label>
+                        <input class="Nome" type="text" name="nome" required="nome">
+                        
+                </div>
+                
+      
+                <div class="inputBox">
+                        <label class="Email">E-mail:</label>
+                        <input class="Email" type="email" name="email" required="">
+                        
+                </div>
+                
+                <div class="inputBox">
+                       <label class="Senha">Senha:</label>
+                       <input class="senha" type="password" name="senha" required="" >
+                  
+                </div>
+      
+                <div class="inputBox">
+                        <label class="Data">Data de nascimento:</label>
+                        <input class="Data" type="date" name="nascimento" required="">
+                        
+                </div>
+      
+                <div class="inputBox">
+                        <label class="genero">Sexo:</label>
+                       <select name="sexo" id="genero" > 
+      
+                                <option value="Masculino">Masculino</option>
+                                <option value="Feminino">Feminino</option>
+      
+      
+                       </select>
+                        
+                       
+                </div>
+
+                <div class="inputBox">
+                                <label class="estado">UF:</label>
+                               <select name="estado" id="estado" > 
+                    
+                                        <option value="Santa Catarina">SC</option>
+                                        <option value="Rio Grande Do Sul">RS</option>
+                                        <option value="Paraná">PR</option>
+                    
+                    
+                               </select>
+
+                        </div>
+                    
+                               <div class="inputBox">
+                                <label class="cidade">Cidade:</label>
+                                <input class="cidade" type="text" name="cidade" required="" >
+                           
+                         </div>
+                    
+                               
+      
+                <div class="inputBox">
+                        <label class="endereco">Rua:</label>
+                        <input class="endereco" type="text" name="endereco" required=""  >
+                   
+                       
+                </div>
+      
+                <div class="inputBox">
+                       <label class="numero">Número:</label>
+                       <input class="numero" type="text" name="numero" required="" >
+                  
+                </div>
+      
+                
+      
+                <div class="cadastrar"> 
+                        <a href="homelogada.php"><input type="submit" name="submit" href=""	value="Cadastrar" ></a>
+        </div>
+                
+        </form>
+      </div>
+
+      </body>
+      </html>
+
+        
+
+
+
